@@ -1,7 +1,7 @@
 .header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -17,4 +17,11 @@
 }
 
 .header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 20px;
 }
